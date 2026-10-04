@@ -1,0 +1,30 @@
+{
+  "name": "SimGolf Wine Fix",
+  "version": "0.2.0",
+  "date": "2026-10-04",
+  "status": "pre-release",
+  "license": "MIT",
+  "renderer_fix_revision": 3,
+  "widescreen": false,
+  "original_hash_required": false,
+  "compatibility": "PE layout, imports, PFD, GL sites, relocations",
+  "reference_original_dll_sha256": "378e61d2f2061f85e517eade8b64e92ecde00d30ab866c091d55cb737adce0a4",
+  "reference_patched_dll_sha256": "96befb7be17227e33b9a0b1bef84b22777124f9dd80750dffe1a7cde87fd4d6b",
+  "file_sha256": {
+    ".gitignore": "0e68b93136dbf6a0c357ec1a376ff86c63d4086ce8721d3a4e86539115c95b28",
+    "LICENSE": "f01908423e5b71b6247e9bee632e4bb3831a4b06dd34879908a045e302159676",
+    "README.md": "a7066d31e267d197688ce4b02491180a04bd494ef7391d290461183eda0c194d",
+    "README.pt-BR.md": "6d669133545c3d0626151415526b42c9c7a3a89f44b399d49f40981cd1bd0d75",
+    "RELEASE_NOTES.md": "8737e57403e8bc69b0e1310fde257b26d1859ea16146d6a062b9d63e27473b37",
+    "VALIDATION.md": "54f80d7b4fd692d1da5b74101ff8d3cb0d492292d003507e9cd50909d482763d",
+    "build_payload.sh": "d988295a2229af68b9687b083132348df7fc1fd553b73f90d8403e245cefdae8",
+    "patch.py": "846e436c11fccf148f610739c0aa14f3cfd072c98028e1cd1c8cdc1ccca6e8c0",
+    "payload/hook.bin": "5a7a71c9cb1b3b6db5f7d4f5d7a28882bd3792324f29a17baefd68c592d70ff3",
+    "src/convert.h": "2e6992cf8888b8a9ecef7c4adc56d9f0a0067f1e5a48d53cf17fbdb7e281900c",
+    "src/entry.S": "76976e544f3cee473871480080914fead44999414861cd3a274b3dd64fcd5711",
+    "src/hook.c": "3f720f18a3b5bc19c533e7d967e2897af309a4a26cceef47f6ea1ca7082794a9",
+    "src/link.ld": "954a0c6ce5d38d2584b030be0c54d9b74d9c9167ed3200f1c2dc692b966d7cd4",
+    "tests/test_convert.c": "3514a8be5e7fb00e733a8c24039eacf2397c3e9fdc0145086aeeec4dbdfd51aa",
+    "tests/test_patch.py": "965db1dd144632640ad7322978b6bd5d525dd80c1b7fab5f9ee523246fe87dc8"
+  }
+}

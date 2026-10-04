@@ -1,0 +1,9 @@
+/build/
+__pycache__/
+*.pyc
+*.dll
+*.exe
+*.backup
+*.log
+/game/
+/logs/
